@@ -17,8 +17,8 @@ st.markdown("Analyze bird monitoring data from Forest and Grassland habitats.")
 # ---------------------------
 @st.cache_data
 def load_data():
-    forest = pd.read_excel("Bird_Monitoring_Data_FOREST.xlsx")
-    grassland = pd.read_excel("Bird_Monitoring_Data_GRASSLAND.xlsx")
+    forest = pd.read_excel("Bird_Monitoring_Data_FOREST.XLSX")
+    grassland = pd.read_excel("Bird_Monitoring_Data_GRASSLAND.XLSX")
 
     forest["Habitat"] = "Forest"
     grassland["Habitat"] = "Grassland"
